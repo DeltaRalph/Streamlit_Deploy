@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Veri Dashboard - Beşiktaş Hava Kalitesi")
+st.title("Veri Dashboard - Hava Kalitesi")
 
 uploaded_file = st.file_uploader("Excel formatında verinizi yükleyin", type="xlsx")
 
